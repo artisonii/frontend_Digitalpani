@@ -141,7 +141,7 @@ const Weather = () => {
                     <div className='sunriseContainer'>
                         <div> <span>Humidity </span><span>{weather?.main?.humidity} %</span></div>
                         <div> <span>Feels Like </span><span>{Math.round(weather?.main?.feels_like)} ℃</span></div>
-                        <div> <span>Wind: </span><span>{weather?.wind?.speed} km/h</span></div>
+                        <div> <span>Wind </span><span>{weather?.wind?.speed} km/h</span></div>
                         <div> <span>Sunrise </span><span>{sunrise}</span></div>
                         <div> <span>Sunset </span><span>{sunset}</span></div>
                         <div> <span>High </span><span> {weather?.main?.temp_max} ℃</span></div>
