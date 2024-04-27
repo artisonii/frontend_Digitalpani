@@ -4,7 +4,7 @@ import axios from "axios"
 import { WiSunrise } from "react-icons/wi";
 const cities = ["Delhi", "Bengaluru", "Lucknow", "Bhopal", "Jaipur"]
 const appId = "2bed4a01f425570dcaeaefd450d39bef"
-const weatherApi = "http://api.openweathermap.org/data/2.5/weather";
+const weatherApi = "https://api.openweathermap.org/data/2.5/weather";
 const Weather = () => {
     const [city, setCity] = useState(cities[0])
     const [weather, setWeather] = useState({})
@@ -149,9 +149,9 @@ const Weather = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            {/* <div>
                 <img src={`https://tile.openweathermap.org/map/temp_new/1/11/200.png?appid=${appId}`} alt="" />
-            </div>
+            </div> */}
         </div>
     )
 }
