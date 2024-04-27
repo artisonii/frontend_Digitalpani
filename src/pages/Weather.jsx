@@ -145,7 +145,7 @@ const Weather = () => {
                         <div> <span>Sunrise </span><span>{sunrise}</span></div>
                         <div> <span>Sunset </span><span>{sunset}</span></div>
                         <div> <span>High </span><span> {weather?.main?.temp_max} ℃</span></div>
-                        <div> <span>Wind </span><span>{weather?.wind?.speed} km/h</span></div>
+                        <div> <span>Low </span><span>{weather?.main?.temp_min} ℃</span></div>
                     </div>
                 </div>
             </div>
